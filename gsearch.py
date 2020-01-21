@@ -24,3 +24,6 @@ wait.until(EC.presence_of_element_located((By.ID, 'resultStats')))
 result_stats = browser.find_element_by_id('resultStats').text
 print(result_stats)
 
+#closing the browser
+browser.quit()
+
