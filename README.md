@@ -9,6 +9,12 @@ Google search for a given query and checks that the resulting page has 10 result
 The tools/librairies that helped us performing this challenge is :
 
 ● Language: Python3
+
 ● Driver: chromedriver_win32
+
 ● Browser: Google Chrome
+
 ● Test framework: Pytest
+
+
+Note : for this step (#1), we will be opening a new instance of Google Chrome every time the script is executed.
